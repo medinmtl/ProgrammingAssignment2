@@ -1,6 +1,4 @@
 # See README.md and Demo.md for instructions on running the code and output from it
-# The assignment states that running the code is not part of the grading 
-# but I have the instructions anyway.
 
 # makeCacheMatrix: this function creates a special "matrix" object that can cache its inverse.
 # The final goal is to store a martix and the cached value of its inverse.
@@ -53,7 +51,7 @@ cacheSolve <- function(x, ...) {
     # get the cached value of the matrix inverse
     inverse <- x$getInverse()
     
-    # if a cached value for the matrix inverse exists the return it
+    # if a cached value for the matrix inverse exists then return it
     if(!is.null(inverse)) {
         message("getting cached data")
         return(inverse)
