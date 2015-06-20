@@ -24,7 +24,7 @@ repeatedly (there are also alternatives to matrix inversion that we will
 not discuss here). Your assignment is to write a pair of functions that
 cache the inverse of a matrix.
 
-##Demontration
+##Demonstration
 The following code demonstrates how to use the `cachematrix.R` R script.
 
 Lines starting with `#` are simple comments, lines starting with `#>` are things
